@@ -1,0 +1,64 @@
+    .video-title {
+     font-family: Arial;
+     font-weight: bold;
+     font-size: 18px;
+     width: 300px;
+     margin-bottom: 5px;
+     line-height: 25px;
+    }
+
+    .video-rating {
+      font-size: 15px;
+      color: #606060;
+      margin-top: 0px;
+      font-family: Arial;
+    }
+
+    .video-author {
+      font-size: 15px;
+      color: #606060;
+      font-family: Arial;
+      margin-bottom: 19px;
+    }
+
+    .video-description {
+      font-size: 15px;
+      color: #606060;
+      font-family: Arial;
+      width: 300px;
+      margin-top: 0px;
+      line-height: 20px;
+    }
+    
+    .video-footer {
+      font-size: 15px;
+      color: #606060;
+      font-family: Arial;
+      margin-top: 0px;
+      text-align: center;
+      margin-top: 90px;
+      margin-bottom: 50px; 
+      background-color: #e34140;
+      color: white;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      
+    }
+
+    .shop:hover {
+      text-decoration: underline;
+    }
+    
+    .container {
+      display: flex;
+    }
+
+    .box {
+      flex: 1; /* Each box takes equal space */
+      border: 1px solid black;
+      box-sizing: border-box; /* To include borders in width calculation */
+    }
+    
+    .s-logo {
+      width: 20px;
+    }
